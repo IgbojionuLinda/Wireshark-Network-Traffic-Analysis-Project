@@ -1,23 +1,27 @@
 
-# Wireshark-Network-Traffic-Analysis-Detecting Unencrypted Traffic.
+# Wireshark-Network-Traffic-Analysis-Project.
 
 SOC Analyst project analyzing live network traffic using Wireshark to detect unencrypted communication and security risks.
 
 ## Project Overview.
-This project demonstrates the practical application of network traffic analysis using Wireshark. The objective was to capture and analyse live network traffic to identify security risks such as unencrypted communication and observable DNS activity.
+This project demonstrates practical application of network traffic analysis using Wireshark. The objective was to capture and analyse live network traffic to identify normal and suspicious traffic patterns, security risks such as unencrypted communication and observable DNS activities.
 
-This project simulates tasks performed by a Security Operations Centre (SOC) analyst during network monitoring and investigation.
+## Objectives.
+To analyze captured network packets and identify:
+-Protocols in use.
+-Network conversations.
+-Potential security risks.
+-Unencrypted communications.
 
 ## Project Problem Statement.
 Many users assume all internet traffic is secure. However, some communication still occurs without encryption, which may expose sensitive information to attackers monitoring network traffic.
 
-This project investigates how network traffic behaves and identifies potential security weaknesses.
-
 ## Tools Used
 -Wireshark.
--Windows Laptop.
+-Windows OS.
 -Wi-Fi Network Connection.
 -Web Browser.
+-Sample network traffic capture
 
 ## Methodology
 1 I captured live traffic using Wireshark.
@@ -37,9 +41,12 @@ This project investigates how network traffic behaves and identifies potential s
 ## This screenshot demonstrates encrypted HTTPS communication using TLS protocol.
 ![TLS Traffic](Screenshots/TLS_Handshake_Packet.png)
 
-5 Analysed packet behaviour and security implications.
-
 ## Analysis performed
+-Live traffic capture
+-Protocol filtering (HTTP, DNS, TLS)
+-Packet inspection
+-Identification of plaintext traffic
+
 ### DNS Traffic Analysis
 DNS packets revealed domain resolution requests showing how systems translate domain names into IP addresses.
 
@@ -50,24 +57,28 @@ TLS packets confirm encrypted communication and protect transmitted data.
 I observed data transmission without encryption, demonstrating potential exposure risks.
 
 ## Key Findings
--DNS traffic exposes browsing activity.
+-Observed DNS queries and responses.
+-Identified HTTP traffic transmitting data in plaintext
 -Live traffic is vulnerable to interception.
 -HTTPS encrypts communication and improves security posture.
 
 ## Security Recommendations
--Monitor DNS activity for suspicious domains.
+-Enforce HTTPS-only communiction.
+-Monitor DNS activities for suspicious domains.
 -Implement continuous network monitoring.
--Enforce HTTPS-only communication.
 
 ## Skills Demonstrated
 -Packet capture and analysis
--Protocol filtering
--Network traffic investigation
+-Traffic filtering
+-Network protocol identification
+-Cybersecurity investigation basics
 -Security risk identification
 -SOC analyst fundamentals
 
-## Author
-Security Operations (SOC) analysis through a hands-on project.
+## What I learned
+This project strengthened my understanding of how network traffic flows and how attackers or suspicious activitiy may appear inside packet captures.
 
-## Project updated
+## Author
+Igbojionu Linda
+SOC Analyst | Network Administrator | Aspiring Network Security Engineer.
 
