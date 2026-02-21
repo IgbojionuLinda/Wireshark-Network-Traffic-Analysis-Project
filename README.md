@@ -30,15 +30,15 @@ Many users assume all internet traffic is secure. However, some communication st
 4 Applied protocol filter:
 
   Live Traffic
-## This screenshot shows Live Traffic capture.
+### This screenshot shows Live Traffic capture.
 ![Live Traffic](Screenshots/Live_Network_Capture.png)
 
   DNS
-## This capture shows DNS queries captured during live traffic monitoring.
+### This capture shows DNS queries captured during live traffic monitoring.
 ![DNS Traffic](Screenshots/DNS_Query_Packets.png)
 
   TLS
-## This screenshot demonstrates encrypted HTTPS communication using TLS protocol.
+### This screenshot demonstrates encrypted HTTPS communication using TLS protocol.
 ![TLS Traffic](Screenshots/TLS_Handshake_Packet.png)
 
 ## Analysis performed
