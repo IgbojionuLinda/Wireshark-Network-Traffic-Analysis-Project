@@ -24,10 +24,10 @@ Many users assume all internet traffic is secure. However, some communication st
 - Sample network traffic capture
 
 ## Methodology
-1 I captured live traffic using Wireshark.
-2 Selected active Wi-Fi network interface.
-3 Generated traffic by browsing websites.
-4 Applied protocol filter:
+- I captured live traffic using Wireshark.
+- Selected active Wi-Fi network interface.
+- Generated traffic by browsing websites.
+- Applied protocol filter:
 
   Live Traffic
 ### This screenshot shows Live Traffic capture.
