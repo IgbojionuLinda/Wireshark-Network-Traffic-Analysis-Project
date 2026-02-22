@@ -80,5 +80,5 @@ This project strengthened my understanding of how network traffic flows and how 
 
 ## Author
 Igbojionu Linda
-SOC Analyst | Network Administrator | Aspiring Network Security Engineer.
+- SOC Analyst | Network Administrator | Aspiring Network Security Engineer.
 
