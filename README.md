@@ -8,20 +8,20 @@ This project demonstrates practical application of network traffic analysis usin
 
 ## Objectives.
 To analyze captured network packets and identify:
--Protocols in use.
--Network conversations.
--Potential security risks.
--Unencrypted communications.
+- Protocols in use.
+- Network conversations.
+- Potential security risks.
+- Unencrypted communications.
 
 ## Project Problem Statement.
 Many users assume all internet traffic is secure. However, some communication still occurs without encryption, which may expose sensitive information to attackers monitoring network traffic.
 
 ## Tools Used
--Wireshark.
--Windows OS.
--Wi-Fi Network Connection.
--Web Browser.
--Sample network traffic capture
+- Wireshark.
+- Windows OS.
+- Wi-Fi Network Connection.
+- Web Browser.
+- Sample network traffic capture
 
 ## Methodology
 1 I captured live traffic using Wireshark.
@@ -42,10 +42,10 @@ Many users assume all internet traffic is secure. However, some communication st
 ![TLS Traffic](Screenshots/TLS_Handshake_Packet.png.png)
 
 ## Analysis performed
--Live traffic capture
--Protocol filtering (HTTP, DNS, TLS)
--Packet inspection
--Identification of plaintext traffic
+- Live traffic capture
+- Protocol filtering (HTTP, DNS, TLS)
+- Packet inspection
+- Identification of plaintext traffic
 
 ### DNS Traffic Analysis
 DNS packets revealed domain resolution requests showing how systems translate domain names into IP addresses.
@@ -57,23 +57,23 @@ TLS packets confirm encrypted communication and protect transmitted data.
 I observed data transmission without encryption, demonstrating potential exposure risks.
 
 ## Key Findings
--Observed DNS queries and responses.
--Identified HTTP traffic transmitting data in plaintext
--Live traffic is vulnerable to interception.
--HTTPS encrypts communication and improves security posture.
+- Observed DNS queries and responses.
+- Identified HTTP traffic transmitting data in plaintext
+- Live traffic is vulnerable to interception.
+- HTTPS encrypts communication and improves security posture.
 
 ## Security Recommendations
--Enforce HTTPS-only communiction.
--Monitor DNS activities for suspicious domains.
--Implement continuous network monitoring.
+- Enforce HTTPS-only communiction.
+- Monitor DNS activities for suspicious domains.
+- Implement continuous network monitoring.
 
 ## Skills Demonstrated
--Packet capture and analysis
--Traffic filtering
--Network protocol identification
--Cybersecurity investigation basics
--Security risk identification
--SOC analyst fundamentals
+- Packet capture and analysis
+- Traffic filtering
+- Network protocol identification
+- Cybersecurity investigation basics
+- Security risk identification
+- SOC analyst fundamentals
 
 ## What I learned
 This project strengthened my understanding of how network traffic flows and how attackers or suspicious activitiy may appear inside packet captures.
