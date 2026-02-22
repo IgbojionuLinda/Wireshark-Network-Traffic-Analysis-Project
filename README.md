@@ -29,7 +29,7 @@ Many users assume all internet traffic is secure. However, some communication st
 - Generated traffic by browsing websites.
 - Applied protocol filter:
 
-  Live Traffic
+## Live Traffic
 ### This screenshot shows Live Traffic capture.
 ![Live Traffic](Screenshots/Live_Network_Capture.png.png)
 
